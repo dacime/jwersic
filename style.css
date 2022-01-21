@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+}
+
+.header_logo {
+    margin-top: 87px;
+}
+
+.header_logo {
+    display: inline-flex;
+}
+
+.jwersic_logo_pic {
+    height: 75px;
+}
+
+.jwersic_text_div {
+    text-decoration: none;
+}
+
+.jwersic_text {
+    font-family: Garamond;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 72px;
+    text-decoration: none;
+}
+
+/* ============================== МЕНЮ ============================== */
+
+.menu-list {
+    list-style: none;
+    margin: 64px 0;
+    text-align: center;
+}
+
+.menu-list li {
+    display: inline-block;
+}
+
+.menu-list li:after {
+    color: #000000;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.menu-list li:last-child:after {
+    content: none;
+}
+
+.menu-list a {
+    text-decoration: none;
+    font-family: Garamond;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 27px;
+    position: relative;
+    margin-right: 70px;
+    display: inline-block;
+    transition: color .2s;
+}
+
+.menu-list a,
+.menu-list a:visited {
+    color: #000000;
+}
+
+.menu-list a:before,
+.menu-list a:after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    top: auto;
+    right: 50%;
+    bottom: -5px;
+    left: 50%;
+    background: #f3e5ab;
+    transition: .8s;
+}
+
+.menu-list a:hover:before,
+.menu-list .current:before {
+    left: 0;
+}
+
+.menu-list a:hover:after,
+.menu-list .current:after {
+    right: 0;
+}
+
+/* ============================== СОЦ СЕТИ ============================== */
+
+.socialmedia {
+    display: inline-flex;
+    text-decoration: none;
+}
+
+.instagram {
+    margin-right: 30px;
+}
+
+.telegram {
+    margin-right: 30px;
+}
