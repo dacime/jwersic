@@ -8,6 +8,10 @@
     margin: 0 auto;
 }
 
+a {
+    text-decoration: none;
+}
+
 .header {
     text-align: center;
 }
@@ -21,33 +25,31 @@
 }
 
 .jwersic_logo_pic {
-    height: 60px;
-    width: 160px;
-}
-
-.none-decoration {
-    text-decoration: none;
+    max-height: 63px;
 }
 
 .jwersic_text_div {
-    text-decoration: none;
+    color: #000000;
+    max-width: 255px;
+    max-height: 72px;
 }
 
 .jwersic_text {
     font-family: Garamond;
     font-style: normal;
     font-weight: normal;
-    font-size: 64px;
+    font-size: 50px;
     line-height: 72px;
-    text-decoration: none;
 }
 
 /* ============================== МЕНЮ ============================== */
 
 .menu-list {
     list-style: none;
-    margin: 64px 0;
-    text-align: center;
+    left: 226px;
+    margin: 38px 0;
+    align-items: stretch;
+    padding-left: 60px;
 }
 
 .menu-list li {
@@ -69,8 +71,8 @@
     font-family: Garamond;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 27px;
+    font-size: 15px;
+    line-height: 23px;
     position: relative;
     margin-right: 70px;
     display: inline-block;
@@ -109,13 +111,32 @@
 
 .socialmedia {
     display: inline-flex;
-    text-decoration: none;
+    justify-content: center;
+    max-width: 27px;
+    max-height: 26px;
 }
 
 .instagram {
     margin-right: 30px;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 26px;
 }
 
 .telegram {
     margin-right: 30px;
+    justify-content: center;
+    max-width: 27px;
+    max-height: 26px;
+}
+
+/* ============================== MIDDLE PART ============================== */
+
+.middle-box {
+    margin: 62px 0
+}
+
+.left_1 {
+    max-width: 50%;
+    max-height: 50%;
 }
